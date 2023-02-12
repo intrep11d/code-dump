@@ -47,8 +47,9 @@ void insert(int a[], int *n, int item){
 	int i;
 	for (i = 0; item < a[i] || i < *n; ++i){
 		if (item < a[i]){
-			a[i-1] = item;
+			
 		}
+		
 	}
 	
 	//Get the index of the number before where it should be inserted to
