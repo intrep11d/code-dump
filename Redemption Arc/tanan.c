@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int i;
-   for (i = 0; i < 9; ++i){
+    int m = 10, n, o;
+    int *z;
 
-   }
-
-   printf("%d", i);
+    z = &m;
+    printf("%d", *z);
 }
